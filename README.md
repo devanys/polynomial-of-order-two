@@ -1,3 +1,6 @@
+![Screenshot 2024-04-14 024554](https://github.com/devanys/polynomial-of-order-two/assets/145944367/a9c6550e-dfef-425e-aa57-07e1e15092e2)
+
+
 # Visualisasi Kurva Polinomial Orde Dua dengan Flutter
 
 Proyek ini merupakan aplikasi Flutter yang bertujuan untuk memberikan visualisasi interaktif dari kurva polinomial orde dua. Dengan menggunakan Flutter SDK dan bahasa pemrograman Dart, aplikasi ini memungkinkan pengguna untuk secara dinamis menghasilkan dan menampilkan kurva polinomial serta melakukan manipulasi terhadap parameter-parameter yang relevan.
