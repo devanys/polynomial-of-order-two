@@ -26,4 +26,4 @@ Proyek ini dilisensikan di bawah Lisensi MIT - lihat berkas [LICENSE](LICENSE) u
 
 ---
 
-Dibuat dengan ❤️ oleh [Devan Yusfa Sukmadya]
+Dibuat oleh [Devan Yusfa Sukmadya]
