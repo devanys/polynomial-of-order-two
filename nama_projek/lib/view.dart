@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:charts_flutter/flutter.dart' as charts;
-import 'controller.dart'; // Import CurveController
-import 'model.dart'; // Import CurveModel
+import 'controller.dart'; 
+import 'model.dart'; 
 
 class CurveView extends StatefulWidget {
   @override
@@ -49,16 +49,16 @@ class _CurveViewState extends State<CurveView> {
       ),
       body: Container(
         padding: EdgeInsets.all(16.0),
-        color: Color.fromARGB(255, 0, 0, 0), // Latar belakang gelap
+        color: Color.fromARGB(255, 0, 0, 0), 
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             TextField(
               controller: aController,
-              style: TextStyle(color: Colors.green), // Warna teks putih
+              style: TextStyle(color: Colors.green), 
               decoration: InputDecoration(
                 labelText: 'Value of a (-10 > 10)',
-                labelStyle: TextStyle(color: Colors.green), // Warna label putih
+                labelStyle: TextStyle(color: Colors.green), 
                 border: OutlineInputBorder(),
               ),
               keyboardType: TextInputType.number,
@@ -66,10 +66,10 @@ class _CurveViewState extends State<CurveView> {
             SizedBox(height: 12.0),
             TextField(
               controller: bController,
-              style: TextStyle(color: Colors.green), // Warna teks putih
+              style: TextStyle(color: Colors.green), 
               decoration: InputDecoration(
                 labelText: 'Value of b',
-                labelStyle: TextStyle(color: Colors.green), // Warna label putih
+                labelStyle: TextStyle(color: Colors.green),
                 border: OutlineInputBorder(),
               ),
               keyboardType: TextInputType.number,
@@ -77,10 +77,10 @@ class _CurveViewState extends State<CurveView> {
             SizedBox(height: 12.0),
             TextField(
               controller: cController,
-              style: TextStyle(color: Colors.green), // Warna teks putih
+              style: TextStyle(color: Colors.green), 
               decoration: InputDecoration(
                 labelText: 'Value of c',
-                labelStyle: TextStyle(color: Colors.green), // Warna label putih
+                labelStyle: TextStyle(color: Colors.green), 
                 border: OutlineInputBorder(),
               ),
               keyboardType: TextInputType.number,
@@ -96,7 +96,7 @@ class _CurveViewState extends State<CurveView> {
                   ? Center(
                       child: Text(
                         'No data to display',
-                        style: TextStyle(color: Colors.green), // Teks warna putih
+                        style: TextStyle(color: Colors.green),
                       ),
                     )
                   : charts.LineChart(
@@ -111,14 +111,13 @@ class _CurveViewState extends State<CurveView> {
                           behaviorPosition: charts.BehaviorPosition.bottom,
                           titleOutsideJustification:
                               charts.OutsideJustification.middleDrawArea,
-                          titleStyleSpec: charts.TextStyleSpec(color: charts.MaterialPalette.white), // Warna teks putih
-                        ),
+                          titleStyleSpec: charts.TextStyleSpec(color: charts.MaterialPalette.white),                        ),
                         charts.ChartTitle(
                           'Y-Axis',
                           behaviorPosition: charts.BehaviorPosition.start,
                           titleOutsideJustification:
                               charts.OutsideJustification.middleDrawArea,
-                          titleStyleSpec: charts.TextStyleSpec(color: charts.MaterialPalette.white), // Warna teks putih
+                          titleStyleSpec: charts.TextStyleSpec(color: charts.MaterialPalette.white),
                         ),
                       ],
                     ),
